@@ -1,0 +1,28 @@
+/* src/Footer.css */
+
+.footer {
+    background-color: #1f454d; /* Dark teal background */
+    color: #d9d7ca; /* Light text color */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Padding on top and bottom */
+    position: fixed; /* Stick to the bottom of the page */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .footer p {
+    margin: 5px 0; /* Small margin for paragraphs */
+  }
+  
+  .footer a {
+    color: #3c8d93; /* Light teal color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px; /* Small margin between links */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .footer a:hover {
+    color: #007BFF; /* Blue color on hover */
+  }
+  

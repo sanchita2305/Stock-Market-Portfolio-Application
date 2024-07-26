@@ -1,0 +1,145 @@
+/* src/Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f0f0; /* Light background color for Home page */
+  }
+  
+  .home-container h1 {
+    color: #1f454d;
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Larger font size for the heading */
+  }
+  
+  .home-image {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+
+
+  /* src/Home.css */
+
+.home-background {
+  background-image: url('/path/to/your/background-image.jpg'); /* Specify the path to your background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a white background with some opacity */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin: 50px auto; /* Center the container horizontally */
+  max-width: 2000px; /* Optional: Limit the maximum width of the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.home-container h1 {
+  color: #1f454d;
+}
+
+.home-container p {
+  color: #333;
+}
+
+.home-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Keep the aspect ratio */
+  margin: 20px 0; /* Add some margin */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns of equal width */
+  gap: 10px; /* Gap between the images */
+  margin: 20px 0; /* Add some margin */
+}
+
+.image-grid img {
+  width: 100%; /* Make the images responsive */
+  height: auto; /* Keep the aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+
+/* Home.css */
+.home-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.image-grid img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+.home-container1 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a white background with some opacity */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin: 50px auto; /* Center the container horizontally */
+  max-width: 2000px; /* Optional: Limit the maximum width of the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.home-container1 p {
+  color: #1f454d;
+}
+
+/* .home-container1 p {
+  color: #333;
+} */
+
+
+
+/* Home.css */
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.typing-effect {
+  font-family: sans-serif; /* Optional: You can use any font you like */
+  overflow: hidden;
+  /* border-right: .15em solid black; */
+   /* The cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation: 
+    typing 3.5s steps(40, end) infinite,
+    blink-caret .75s step-end infinite;
+}
+
+
+
